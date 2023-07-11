@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2023. MageCloud.  All rights reserved.
+ * @author: Volodymyr Hryvinskyi <mailto:volodymyr@hryvinskyi.com>
+ */
+-->
+
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="search_engine_optimization">
+        <field name="custom_canonical_url" sortOrder="300">
+            <settings>
+                <label translate="true">Canonical URL</label>
+                <tooltip>
+                    <description translate="true">
+                        <![CDATA[
+                        Url should be relative to the base URL. Example: <br>
+                        /category<br>
+                        /category/subcategory
+                        ]]>
+                    </description>
+                </tooltip>
+                <notice translate="true"><![CDATA[If empty, the canonical URL will be generated automatically.]]></notice>
+            </settings>
+        </field>
+    </fieldset>
+</form>
